@@ -1,60 +1,57 @@
-/* Color/Font/Global References
+
+
+/* REFERENCES
 : #b5bcc6 (background blue)
-: #faf8f2 (background white)
-: #
+: #fcfcfc (background white)
+: #777777 (font gray)
+: #262626 (background/font black)
 */
 
-/* GLOBAL CSS */
 
+
+/* GLOBAL CSS */
 .box {
     border: 1px solid black;
 }
-/* html { 
-    background: url(../img/beachCropped.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
-/* 
-.background { 
-    background: url(../img/beachCropped.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
 
 body {
-    background-color: #faf8f2;
+    background-color: #fcfcfc;
 }
+
 .background {
-    background-color: #faf8f2;
-    color: black;
+    background-color: #fcfcfc;
+    color: #262626;
 }
 
 .softWhite {
-    background-color: #faf8f2;
-    color: black;
+    background-color: #fcfcfc;
+    color: #262626;
+}
+
+.softBlack {
+    background-color: #262626;
+    color: #fcfcfc;
 }
 
 .screen {
     background: transparent;
-}   
+} 
 
 .centered {
-    margin: 100px auto 75px;
+    /* margin: 100px auto 75px; */
     text-align: center;
 }
 
+/* CUSTOM CSS */
 .storyHeader {
     margin: 0 300px
 }
 
 .intro {
-    font-size: 50px;
-    padding-top: 25%;
+    font-size: 40px;
     text-align: right;
+    margin-bottom: 0;
+    padding-right: 5px;
 }
 
 .paddingHighLow {
@@ -63,11 +60,11 @@ body {
 }
 
 .paddingSide {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .element {
-    color: #faf8f2;
+    color: #fcfcfc;
 	text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
@@ -75,4 +72,103 @@ body {
 		1px 1px 0 #000;
 }
 
-/* Media 
+.contact {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    padding-top: 5%;
+    margin-bottom: 0;
+    color: #bdbdbd;
+    padding-right: 5px;
+}
+
+.more {
+    color: #777777;
+}
+
+.invert {
+    background: #262626;
+    color: #262626;
+	text-shadow:
+		-1px -1px 0 #fcfcfc,
+		1px -1px 0 #fcfcfc,
+		-1px 1px 0 #fcfcfc,
+		1px 1px 0 #fcfcfc;
+}
+
+.zeroTop {
+    margin-top: 0;
+}
+
+.top {
+    margin-top: 30px;
+}
+
+.top2 {
+    margin-top: 80px;
+}
+
+.bottom {
+    margin-bottom: 0;
+}
+
+.space {
+    margin: 0 10px;;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.right {
+    text-align: right;
+}
+
+/* EFFECTS */
+#finnish:hover a p.new-label:after{
+    content: 'The forest returns your yell';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @ MEDIA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OTHER SHIT
+
+html { 
+    background: url(../img/beachCropped.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+*/
+/* 
+.background { 
+    background: url(../img/beachCropped.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
