@@ -118,12 +118,26 @@ body {
     padding-bottom: 40px;
 }
 
+.space2 {
+    margin: 0 10px;;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .right {
     text-align: right;
 }
 
 .small {
     font-size: 15px;
+}
+
+#resumeLink {
+    text-decoration: none;
+}
+
+#unhLink {
+    text-decoration: none;
 }
 
 /* EFFECTS */
