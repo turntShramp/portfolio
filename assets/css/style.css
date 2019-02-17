@@ -122,6 +122,10 @@ body {
     text-align: right;
 }
 
+.small {
+    font-size: 15px;
+}
+
 /* EFFECTS */
 #finnish:hover a p.new-label:after{
     content: 'The forest returns your yell';
