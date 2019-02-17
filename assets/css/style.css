@@ -47,6 +47,24 @@ body {
     margin: 0 300px
 }
 
+.gradient {
+    background: #262626;
+    background: -webkit-linear-gradient(#262626, #162220);
+    background:    -moz-linear-gradient(#262626, #162220);
+    background:         linear-gradient(#262626, #162220); 
+}
+
+.gradient2 {
+    background: #262626;
+    background: -webkit-linear-gradient(#162220, #262626);
+    background:    -moz-linear-gradient(#162220, #262626);
+    background:         linear-gradient(#162220, #262626); 
+}
+
+#brand {
+    color: #167ffb;
+}
+
 .intro {
     font-size: 40px;
     text-align: right;
@@ -85,6 +103,10 @@ body {
 .more {
     color: #777777;
     font-family: 'Work Sans', sans-serif;
+}
+
+.fa-icicles {
+    color: #fcfcfc;
 }
 
 .invert {
@@ -146,13 +168,23 @@ body {
 }
 
 .card-title {
-    color: #167ffb;
+    margin-top: 10px;
 }
 .cardContent {
     background-color: #262626;
     color: #fcfcfc;
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#card1 {
+    margin-left: 20px;
+}
+
+#card3 {
+    margin-right: 20px;
 }
 
 #hero {
@@ -178,6 +210,29 @@ body {
 	margin-top: 30px;
 }
 
+#dNd {
+    color: #262626;
+    font-size: 5px;
+}
+
+.fill {
+    height: 100%;
+}
+
+.bottom2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.projTitle {
+    color: #262626;
+    text-decoration: none !important;
+}
+
+.footer {
+    /* background: url('../img/sprinkles.png'); */
+    background-color: #e9e9e9;
+}
 
 /* @ MEDIA
 ------------------------------------------------------------------------------*/
