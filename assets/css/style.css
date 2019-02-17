@@ -1,15 +1,17 @@
 
 
 /* REFERENCES
-: #b5bcc6 (background blue)
 : #fcfcfc (background white)
 : #777777 (font gray)
 : #262626 (background/font black)
+: #167ffb (font blue)
+: #bdbdbd (font gray)
 */
 
 
 
-/* GLOBAL CSS */
+/* CUSTOM CSS
+------------------------------------------------------------------------------*/
 .box {
     border: 1px solid black;
 }
@@ -38,11 +40,9 @@ body {
 } 
 
 .centered {
-    /* margin: 100px auto 75px; */
     text-align: center;
 }
 
-/* CUSTOM CSS */
 .storyHeader {
     margin: 0 300px
 }
@@ -84,6 +84,7 @@ body {
 
 .more {
     color: #777777;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .invert {
@@ -113,7 +114,6 @@ body {
 }
 
 .space {
-    margin: 0 10px;;
     padding-top: 90px;
     padding-bottom: 40px;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .small {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 #resumeLink {
@@ -140,53 +140,48 @@ body {
     text-decoration: none;
 }
 
-/* EFFECTS */
-#finnish:hover a p.new-label:after{
-    content: 'The forest returns your yell';
+.projectPadding {
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+.card-title {
+    color: #167ffb;
+}
+.cardContent {
+    background-color: #262626;
+    color: #fcfcfc;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+
+#hero {
+    background: url('../img/beachCopy.jpeg') 100% 0 repeat fixed;
+	min-height: 500px;
+	position: relative;
+	display: table;
+	width: 100%;
+	padding: 40px 0;
+	color: #fcfcfc;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+#hero article { 
+  width: 100%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#hero .hero-text {
+	margin-top: 30px;
 }
 
 
+/* @ MEDIA
+------------------------------------------------------------------------------*/
 
 
 
 
-
-
-
-
-
-
-/* @ MEDIA */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* OTHER SHIT
-
-html { 
-    background: url(../img/beachCropped.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} 
-*/
-/* 
-.background { 
-    background: url(../img/beachCropped.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */

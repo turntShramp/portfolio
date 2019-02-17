@@ -13,7 +13,7 @@
     <!-- BOOTSTRAP CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Work+Sans|ZCOOL+QingKe+HuangYou" rel="stylesheet">
     <!-- FONT-AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CUSTOM CSS -->
@@ -60,10 +60,18 @@
     
     <!-- NAVBAR
     --------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-md sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand navbar-right" href="">S E A M U S M U R P H Y</a>
+            <div class="navbar-h">
+                <h6>DRUGS</h6>
+            </div>
+        </div>
+    </nav>
 
     <!-- HEADER
     --------------------------------------------------------------------------->
-    <div class="header softWhite paddingSide">
+    <div class="header softWhite">
         <div class="row">
             <div class="col-lg-6">
                 <div class="image">
@@ -117,35 +125,95 @@
                 </div>
             </div>
         </div>
-        
     </div>
 
     <!-- IMAGE 
     --------------------------------------------------------------------------->
-    <div class="big paddingSide">
+    <section id="hero" data-type="background" data-speed="5">
+        <article>
+            <div class="container clearfix">
+                <img src="assets/img/icelandmapWhite.png" width="50%" alt="iceland white">
+            </div> 
+        </article>
+    </section> 
+
+    <!-- <div class="big paddingSide">
         <img src="assets/img/beach.jpeg" width="100%" alt="beach">
-    </div>
+    </div> -->
 
     <!-- PROJECT DIV
     --------------------------------------------------------------------------->
-    <div class="space2 softBlack centered">
+    <div class="space2 softWhite centered">
         <h1><a href="https://codingbootcamp.unh.edu/coding/landing/?s=Google-SREM&&56200456955_aud-512865715437:kwd-321743828344__301136854261_g_c___dc&pkw=unh%20coding%20bootcamp&pcrid=301136854261&pmt=e&utm_source=google&utm_medium=cpc&utm_campaign=%5BS%5D+-+Coding+-+Brand+-+Exact+-+RLSA&utm_term=unh%20coding%20bootcamp&utm_content=301136854261&d=google&k=unh%20coding%20bootcamp&gclid=CjwKCAiAhp_jBRAxEiwAXbniXex-tnizeKNzVWsdngVtvd3C2uNQbbafo-EzhfJ5aa0YNSk11fxhlxoCeWwQAvD_BwE&gclsrc=aw.ds"><i class="fas fa-tooth"></i></a> Bootcamp Projects</h1>
     </div>
 
     <!-- PROJECT LINKS
     --------------------------------------------------------------------------->
-    <div class="projects softWhite paddingSide">
+
+        <div class="projects softWhite">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card cardContent">
+                        <div class="card-header">
+                            <h6 class="card-title">Hoop Hype</h6>
+                            <p>HoopHype is a quick mobile app designed to to help you choose a live basketball game to go see. Using an algorithem to compare your chosen team to all of their opponents, HoopHype ranks the games in the season so you know what'll be a game worth seeing.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://turntshramp.github.io/hoopHype/">
+                            <img src="assets/img/hoopHype.png" width="100%" alt="hoopHype"></a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card cardContent">
+                        <div class="card-header">
+                            <h6 class="card-title">Crystal Collector</h6>
+                            <p>Crystal Collector, a classic JS game using basic logic to guess what number the computer is thinking. Clicking on images of crystals presents random numbers you must combine to match the computers number in mind.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://turntshramp.github.io/unit4game/">
+                            <img src="assets/img/crystalCopy.png" width="100%" alt="crystal"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card cardContent">
+                        <div class="card-header">
+                            <h6 class="card-title">Word Guess</h6>
+                            <p>Word Guess, another classic Javascript game, also an alternative to hangman for those of you mindful of the politically correct. The computer has a word in mind; try to spell out the word using on the on-screen keyboard within the alotted number of guesses. Otherwise the game restarts with a new word!</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://turntshramp.github.io/wordGuess/">
+                            <img src="assets/img/wordGuessCopy.png" width="100%" alt="wordGuess"></a>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+<!--     
+    <div class="projects softBlack paddingSide">
         <div class="projectOne centered box">
             <div class="row">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-2">
-                    <a href=""></a>
-                    <img src="assets/img/hoopHype.png" width="100%" alt="hoopHype">
+                    <div class="projectPadding">
+                        <a href="https://turntshramp.github.io/hoopHype/">
+                        <img src="assets/img/hoopHype.png" width="100%" alt="hoopHype"></a>
+                    </div>
                 </div>
                 <div class="col-lg-2"></div>
                 <div class="col-lg-4">
                     <h6>HoopHype</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veritatis culpa tempora repudiandae reprehenderit asperiores? Ad esse, accusantium odio error itaque enim debitis exercitationem, perspiciatis omnis voluptatibus quia! Fugit, fugiat?</p>
+                    <p>HoopHype is a quick mobile app designed to to help you choose a live basketball game to go see. Using an algorithem to compare your chosen team to all of their opponents, HoopHype ranks the games in the season so you know what'll be a game worth seeing.</p>
                 </div>
                 <div class="col-lg-2"></div>
             </div>
@@ -154,13 +222,15 @@
             <div class="row">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-4">
-                    <h6>Unit 4 Game</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veritatis culpa tempora repudiandae reprehenderit asperiores? Ad esse, accusantium odio error itaque enim debitis exercitationem, perspiciatis omnis voluptatibus quia! Fugit, fugiat?</p>
+                    <h6>Crystal Collector</h6>
+                    <p>Crystal Collector, a classic JS game using basic logic to guess what number the computer is thinking. Clicking on images of crystals presents random numbers you must combine to match the computers number in mind.</p>
                 </div>
                 <div class="col-lg-2"></div>
                 <div class="col-lg-2">
-                    <a href=""></a>
-                    <img src="assets/img/hoopHype.png" width="100%" alt="hoopHype">
+                    <div class="projectPadding">
+                        <a href="https://turntshramp.github.io/unit4game/">
+                        <img src="assets/img/crystalCopy.png" width="100%" alt="crystal"></a>
+                    </div>
                 </div>
                 <div class="col-lg-2"></div>
             </div>
@@ -169,17 +239,20 @@
             <div class="row">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-2">
-                    <a href=""></a>
-                    <img src="assets/img/hoopHype.png" width="100%" alt="hoopHype">
+                    <div class="projectPadding">
+                        <a href="https://turntshramp.github.io/wordGuess/">
+                        <img src="assets/img/wordGuessCopy.png" width="100%" alt="wordGuess"></a>
+                    </div>
                 </div>
                 <div class="col-lg-2"></div>
                 <div class="col-lg-4">
                     <h6>Word Guess</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veritatis culpa tempora repudiandae reprehenderit asperiores? Ad esse, accusantium odio error itaque enim debitis exercitationem, perspiciatis omnis voluptatibus quia! Fugit, fugiat?</p>
+                    <p>Word Guess, another classic Javascript game, also an alternative to hangman for those of you mindful of the politically correct. The computer has a word in mind; try to spell out the word using on the on-screen keyboard within the alotted number of guesses. Otherwise the game restarts with a new word!</p>
                 </div>
                 <div class="col-lg-2"></div>
             </div>
         </div>
+    </div> -->
            
     <!-- FOOTER
     --------------------------------------------------------------------------->
