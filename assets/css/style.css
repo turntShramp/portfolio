@@ -44,7 +44,7 @@ body {
 }
 
 .storyHeader {
-    margin: 0 300px
+    margin: 0 25%;
 }
 
 .gradient {
@@ -92,7 +92,7 @@ body {
 
 .contact {
     text-align: left;
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     padding-top: 5%;
     margin-bottom: 0;
@@ -231,12 +231,47 @@ body {
 
 .footer {
     /* background: url('../img/sprinkles.png'); */
-    background-color: #e9e9e9;
+    background-color: black;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.pR-50perc {
+ padding-right: 50%;
+}
+
+.pL-50perc {
+    padding-left: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+#hoophypeCard {
+    background: url('../img/ball.jpeg') 100% 0 repeat fixed;
+}
+
+#unhLink {
+    color: #fcfcfc;
+    text-decoration-line: none;
+}
+
+#unhLink a:hover {
+    color: gray !important;
 }
 
 /* @ MEDIA
 ------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1200px){
 
+}
+
+@media screen and (max-width: 750px) {
+
+}
 
 
