@@ -155,6 +155,8 @@ body {
 }
 
 #resumeLink {
+    /*if you comment this out it becomes purple... i never used purple... where did this shit ocme from?*/
+    /* color: #167ffb; */
     text-decoration: none;
 }
 
@@ -266,12 +268,12 @@ body {
 /* @ MEDIA
 ------------------------------------------------------------------------------*/
 
-@media screen and (min-width: 1200px){
+/* @media screen and (min-width: 1200px){
 
 }
 
 @media screen and (max-width: 750px) {
 
-}
+} */
 
 
