@@ -155,8 +155,7 @@ body {
 }
 
 #resumeLink {
-    /*if you comment this out it becomes purple... i never used purple... where did this shit ocme from?*/
-    /* color: #167ffb; */
+    color: #167ffb;
     text-decoration: none;
 }
 
