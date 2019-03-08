@@ -160,7 +160,7 @@ body {
     text-decoration: none;
 }
 
-#unhLink {
+#gitLink {
     text-decoration: none;
 }
 
@@ -256,12 +256,12 @@ body {
     background: url('../img/ball.jpeg') 100% 0 repeat fixed;
 }
 
-#unhLink {
+#gitLink {
     color: #fcfcfc;
     text-decoration-line: none;
 }
 
-#unhLink a:hover {
+#gitLink a:hover {
     color: gray !important;
 }
 
