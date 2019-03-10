@@ -16,8 +16,33 @@
     border: 1px solid black;
 }
 
+.redBox {
+    border: 1px solid red;
+}
+
+.blueBox {
+    border: 1px solid blue;
+}
+
+.thickBox {
+    border: 10px solid purple;
+}
+
 body {
     background-color: #fcfcfc;
+}
+
+.transparent{
+    background:rgba(255, 255, 255, 0);
+  }
+
+.fade {
+    background: linear-gradient();
+}
+
+.max {
+    height: 100%;
+    width: 100%;
 }
 
 .background {
@@ -47,12 +72,54 @@ body {
     margin: 0 25%;
 }
 
+.m0-25perc {
+    margin: 0 25%;
+}
+
+.pRL0 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.pTB0 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.mT0 {
+    margin-top: 0;
+}
+
+.mB0 {
+    margin-bottom: 0 !important;
+}
+
+.mAuto {
+    margin: 0 auto;
+}
+.mRL0 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.p100 {
+    padding: 100% 100%;
+}
+
 .gradient {
     background: #262626;
-    background: -webkit-linear-gradient(#262626, #162220);
-    background:    -moz-linear-gradient(#262626, #162220);
-    background:         linear-gradient(#262626, #162220); 
+    background: -webkit-linear-gradient(#262626, rgba(255, 255, 255, 0));
+    background:    -moz-linear-gradient(#262626, rgba(255, 255, 255, 0));
+    background:         linear-gradient(#262626, rgba(255, 255, 255, 0)); 
 }
+
+.gradient3 {
+    background: #262626;
+    background: -webkit-linear-gradient(#162220, #262626);
+    background:    -moz-linear-gradient(#162220, #262626);
+    background:         linear-gradient(#162220, #262626); 
+}
+
 
 .gradient2 {
     background: #262626;
@@ -150,7 +217,7 @@ body {
     text-align: right;
 }
 
-.small {
+.smallFont {
     font-size: 17px;
 }
 
