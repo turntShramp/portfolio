@@ -267,12 +267,13 @@ body {
 }
 
 #hero {
-    background: url('../img/beachCopy.jpeg') 100% 0 repeat fixed;
+    background: url('../img/beachCopy.jpeg') no-repeat center center fixed;
+    background-size: cover;
 	min-height: 500px;
 	position: relative;
 	display: table;
 	width: 100%;
-	padding: 40px 0;
+	padding: 0;
 	color: #fcfcfc;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
@@ -284,6 +285,8 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
+
+/* hi */
 
 #hero .hero-text {
 	margin-top: 30px;
