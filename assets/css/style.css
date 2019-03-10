@@ -24,8 +24,19 @@
     border: 1px solid blue;
 }
 
+.greenBox {
+    border: 1px solid green;
+}
+
+.yellowBox {
+    border: 1px solid yellow;
+}
+
+.purpleBox {
+    border: 1px solid purple;
+}
 .thickBox {
-    border: 10px solid purple;
+    border: 10px solid black;
 }
 
 body {
