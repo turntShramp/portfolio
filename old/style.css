@@ -39,11 +39,6 @@
     border: 10px solid black;
 }
 
-
-
-
-
-
 body {
     background-color: #fcfcfc;
 }
@@ -55,14 +50,6 @@ body {
 .fade {
     background: linear-gradient();
 }
-
-
-
-
-
-
-
-
 
 .max {
     height: 100%;
@@ -91,9 +78,6 @@ body {
 .centered {
     text-align: center;
 }
-
-
-/*CUSTOM*/
 
 .storyHeader {
     margin: 0 25%;
@@ -154,10 +138,6 @@ body {
     background:    -moz-linear-gradient(#162220, #262626);
     background:         linear-gradient(#162220, #262626); 
 }
-
-/*
-    NAVBAR
-*/
 
 #brand {
     color: #167ffb;
@@ -367,14 +347,6 @@ body {
 
 #bio {
     padding-top: 25%;
-}
-
-.firstContainer {
-    display: flex;
-}
-
-.box1 {
-
 }
 
 /* @ MEDIA

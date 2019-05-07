@@ -1,0 +1,384 @@
+
+
+/* REFERENCES
+: #fcfcfc (background white)
+: #777777 (font gray)
+: #262626 (background/font black)
+: #167ffb (font blue)
+: #bdbdbd (font gray)
+*/
+
+
+
+/* CUSTOM CSS
+------------------------------------------------------------------------------*/
+.box {
+    border: 1px solid black;
+}
+
+.redBox {
+    border: 1px solid red;
+}
+
+.blueBox {
+    border: 1px solid blue;
+}
+
+.greenBox {
+    border: 1px solid green;
+}
+
+.yellowBox {
+    border: 1px solid yellow;
+}
+
+.purpleBox {
+    border: 1px solid purple;
+}
+.thickBox {
+    border: 10px solid black;
+}
+
+
+
+
+
+
+body {
+    background-color: #fcfcfc;
+}
+
+.transparent{
+    background:rgba(255, 255, 255, 0);
+  }
+
+.fade {
+    background: linear-gradient();
+}
+
+
+
+
+
+
+
+
+
+.max {
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    background-color: #fcfcfc;
+    color: #262626;
+}
+
+.softWhite {
+    background-color: #fcfcfc;
+    color: #262626;
+}
+
+.softBlack {
+    background-color: #262626;
+    color: #fcfcfc;
+}
+
+.screen {
+    background: transparent;
+} 
+
+.centered {
+    text-align: center;
+}
+
+
+/*CUSTOM*/
+
+.storyHeader {
+    margin: 0 25%;
+}
+
+.m0-25perc {
+    margin: 0 25%;
+}
+
+.pRL0 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.pTB0 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.mT0 {
+    margin-top: 0;
+}
+
+.mB0 {
+    margin-bottom: 0 !important;
+}
+
+.mAuto {
+    margin: 0 auto;
+}
+.mRL0 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.p100 {
+    padding: 100% 100%;
+}
+
+.gradient {
+    background: #262626;
+    background: -webkit-linear-gradient(#262626, rgba(255, 255, 255, 0));
+    background:    -moz-linear-gradient(#262626, rgba(255, 255, 255, 0));
+    background:         linear-gradient(#262626, rgba(255, 255, 255, 0)); 
+}
+
+.gradient3 {
+    background: #262626;
+    background: -webkit-linear-gradient(#162220, #262626);
+    background:    -moz-linear-gradient(#162220, #262626);
+    background:         linear-gradient(#162220, #262626); 
+}
+
+
+.gradient2 {
+    background: #262626;
+    background: -webkit-linear-gradient(#162220, #262626);
+    background:    -moz-linear-gradient(#162220, #262626);
+    background:         linear-gradient(#162220, #262626); 
+}
+
+/*
+    NAVBAR
+*/
+
+#brand {
+    color: #167ffb;
+}
+
+.intro {
+    font-size: 40px;
+    text-align: right;
+    margin-bottom: 0;
+    padding-right: 5px;
+}
+
+.paddingHighLow {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.paddingSide {
+    padding: 0 10px;
+}
+
+.element {
+    color: #fcfcfc;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.contact {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    padding-top: 5%;
+    margin-bottom: 0;
+    color: #bdbdbd;
+    padding-right: 5px;
+}
+
+.more {
+    color: #777777;
+    font-family: 'Work Sans', sans-serif;
+}
+.invert {
+    background: #262626;
+    color: #262626;
+	text-shadow:
+		-1px -1px 0 #fcfcfc,
+		1px -1px 0 #fcfcfc,
+		-1px 1px 0 #fcfcfc,
+		1px 1px 0 #fcfcfc;
+}
+.zeroTop {
+    margin-top: 0;
+}
+.top {
+    margin-top: 30px;
+}
+
+.top2 {
+    margin-top: 80px;
+}
+
+.bottom {
+    margin-bottom: 0;
+}
+
+.space {
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.space2 {
+    margin: 0 10px;;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.right {
+    text-align: right;
+}
+
+.smallFont {
+    font-size: 17px;
+}
+
+#resumeLink {
+    color: #167ffb;
+    text-decoration: none;
+}
+
+#gitLink {
+    text-decoration: none;
+}
+
+.projectPadding {
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+.cardContent {
+    background-color: #262626;
+    color: #fcfcfc;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#card1 {
+    margin-left: 20px;
+}
+
+#card3 {
+    margin-right: 20px;
+}
+
+#hero {
+    background: url('../img/beachCopy.jpeg') no-repeat center center fixed;
+    background-size: cover;
+	min-height: 500px;
+	position: relative;
+	display: table;
+	width: 100%;
+	padding: 0;
+	color: #fcfcfc;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+#hero article { 
+  width: 100%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* hi */
+
+#hero .hero-text {
+	margin-top: 30px;
+}
+
+#dNd {
+    color: #262626;
+    font-size: 5px;
+}
+
+.fill {
+    height: 100%;
+}
+
+.bottom2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.projTitle {
+    color: #262626;
+    text-decoration: none !important;
+}
+
+.footer {
+    /* background: url('../img/sprinkles.png'); */
+    background-color: black;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.pR-50perc {
+ padding-right: 50%;
+}
+
+.pL-50perc {
+    padding-left: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+#hoophypeCard {
+    background: url('../img/ball.jpeg') 100% 0 repeat fixed;
+}
+
+#gitLink {
+    color: #fcfcfc;
+    text-decoration-line: none;
+}
+
+#gitLink a:hover {
+    color: gray !important;
+}
+
+#bio {
+    padding-top: 25%;
+}
+
+.firstContainer {
+    display: flex;
+}
+
+.box1 {
+
+}
+
+/* @ MEDIA
+------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1047px){
+
+}
+
+@media screen and (max-width: 750px) {
+
+} */
+
+
